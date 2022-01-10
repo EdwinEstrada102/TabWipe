@@ -22,3 +22,8 @@ html {
 button {
   margin: 10px;
 }
+
+.listItem{
+	display:flex;
+	align-items:center;
+}
