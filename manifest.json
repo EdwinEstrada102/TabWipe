@@ -3,7 +3,10 @@
     "description": "This is great if you're tired of closing so many tabs.",
     "version": "1.0",
     "manifest_version": 3,
-      "permissions": ["tabs", "storage"],
+      "permissions": ["tabs", "storage", "sessions"],
+      "background": {
+        "service_worker": "background.js"
+      },
       "action": {
         "default_popup": "popup.html",
         "default_icon": {

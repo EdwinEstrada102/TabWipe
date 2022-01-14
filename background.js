@@ -1,3 +1,4 @@
-chrome.browserAction.onClicked.addListener(function(tab) {
-    chrome.tabs.executeScript(null, {file: "popup.js"});
- });
+// chrome.tabs.onUpdated.addListener( (tabId, change, tab) =>
+// {
+//     chrome.storage.local.set({"tabId":tabId, "url":tab.url, "change": change})
+// })
